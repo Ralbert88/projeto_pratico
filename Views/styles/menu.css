@@ -1,0 +1,42 @@
+
+    h1 {
+        font-family: Courier;
+        text-align: center;
+        font-size: 25px;
+		color: white;
+		
+    }
+
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+	text-align: center;
+
+}
+
+li {
+	margin: 3px;
+	display: inline-flex;
+	list-style:none;
+	float: none;
+	
+	
+}
+li a {
+	text-decoration: none;
+	background-color: white;
+	border-radius: 15px;
+	padding: 9px 10px;
+	text-decoration: none;
+	color: purple;
+
+	
+}
+.menu-caixa {
+	width: 70%;
+	height: 50px;
+
+}
+

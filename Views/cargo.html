@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cargo</title>
+        <meta charset="utf-8">
+        
+        <script src="./scripts/jquery-3.5.1.js"></script>
+        <script src="./scripts/cargo.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/cargo.css">
+       
+            </head>
+    
+    <body>
+        <form name="formulario">
+            
+              
+            <p class="fonte">CADASTRO DE CARGOS</p>
+           
+            
+            <input id="id" type="hidden"> 
+                          <p>
+                <div class="campo"></div>
+                <label>Nome:</label> 
+                <input id="nome" type="text">
+            </div>
+            </p>
+            <p>
+                <div class="campo"></div>
+                <label>Tipo:</label> 
+                <input id="tipo" type="text">
+            </div>
+            </p>
+            <p>
+                <div class="campo"></div>
+                <label>Salário (MENOR VALOR):</label> 
+                <input id="salarioMinimo" type="number">
+            </div>
+            </p>
+            <p>
+                <div class="campo"></div>
+                <label>Salário (MAIOR VALOR):</label> 
+                <input id="salarioMaximo" type="number">
+            </div>
+            </p>
+            
+
+         
+    
+            <p>
+                <button id="salvar" class="botao" type="button">Salvar</button>
+            </p>
+
+            <hr>
+
+            <p>
+              
+                
+                <p> 
+                   
+                    <label><strong>CARGOS CADASTRADOS </strong>
+                    
+                    </label>
+                   
+                </p>
+
+                <table border=2>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>NOME</th>
+                            <th>TIPO</th>
+                            <th>SALÁRIO (MENOR )</th>
+                            <th>SALÁRIO (MAIOR )</th>
+                            <th>AÇÕES</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody id="grid">
+                        
+                    </tbody>
+                </table>
+                <p>
+                    &copy; RalbertRodrigues</p>
+            </p>
+        </form>
+    </body>
+</html>

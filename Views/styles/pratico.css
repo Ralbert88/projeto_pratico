@@ -1,0 +1,47 @@
+body {
+       background-image: url(img.jpg) ;
+       background-attachment: fixed;
+	   height: 100vh;
+       background-size: 100%;
+	   align-items: center;
+       text-align: center;
+       background-color: purple;
+			  
+   }
+      
+    img {
+        width: 700px;
+        height: 200px;
+		border-radius: 20px;
+    }
+    h1 {
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 25px;
+		color:white;
+		font-weight: bold;
+    }
+    p {
+        font-family: 'Arial',sans-serif;
+		font-style: italic;
+        text-align: center;
+		color: white;
+		font-weight: bold;
+    }
+    form {
+        text-align: center;
+        
+    }
+    footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+	color:white;
+           }
+		
+
+.menu-caixa {
+	width: 70%;
+	height: 50px;
+
+}
