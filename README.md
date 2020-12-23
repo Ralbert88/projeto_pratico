@@ -1,2 +1,4 @@
 # projeto_pratico
-Tela inicial e tela de cadastros
+Tela inicial e telas de cadastros
+video de demostração
+arquivo explicativo
