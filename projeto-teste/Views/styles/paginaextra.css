@@ -1,0 +1,73 @@
+
+			
+			body {
+				background-color: black;
+				text-align:center;	
+				background-image: url(../extra.png);
+				background-attachment: fixed;
+				background-size: 20%;
+				
+			
+			}
+		
+			
+			.caixa {
+				border-top-style: dotted;
+				border-left-style: dotted;
+				border-bottom-style: dotted;
+				border-right-style: dotted;
+				
+				border-width: 5px;
+				border-radius: 16px;
+				border-color: white;
+				
+				width: 60%;
+				height: 40%;
+				text-align: left;
+				
+				background-color:purple;
+			}
+			
+			.caixa-centralizada {
+				margin: 0 auto;
+			
+				
+			}
+			
+			.texto {
+				font-family: "Courier";
+				font-size: 20px;
+				text-align:center;
+				text-transform: uppercase;
+				color: white;
+				
+			}
+			.linha {
+				text-align: center;
+				color: white;
+				text-transform: uppercase;
+				
+				
+			}			
+			.paragrafo {
+				font-style:italic;
+				text-decoration: underline;
+			}
+			
+		    footer{
+			text-align: center;
+			font-weight: bold;
+			font-size: 20px;
+			color: white;
+			position:fixed;
+			left: 0;
+			bottom: 0;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			width: 100% ;
+			  }
+
+		    .menu-caixa {
+			width: 70%;
+			height: 50px;
+
+		}
